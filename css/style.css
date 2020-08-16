@@ -688,6 +688,223 @@ body {
   text-decoration: underline;
 }
 
+.reservations {
+  padding: 120px 0;
+}
+
+.reservations .reservations-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reservations .reservations-wrap .block {
+  width: calc(50% - 15px);
+  text-align: center;
+}
+
+.reservations .reservations-wrap .block .title h5 {
+  font-family: 'PTSerif-Bold';
+  color: #3b3b3b;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.reservations .reservations-wrap .block p {
+  margin-top: 30px;
+  line-height: 24px;
+  color: #5b5b5b;
+}
+
+.reservations .reservations-wrap .block .btn {
+  margin-top: 35px;
+}
+
+.reservations .reservations-wrap .block .btn button {
+  text-transform: uppercase;
+  width: 165px;
+  height: 50px;
+  background: #ff6633;
+  color: #ffffff;
+  font-family: 'PTSans-Bold';
+  font-size: 13px;
+  letter-spacing: .65px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.reservations .reservations-wrap .block .btn button:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.reservations .reservations-wrap .block .line-top {
+  width: 1px;
+  height: 65px;
+  background: rgba(154, 153, 153, 0.4);
+  margin: auto;
+}
+
+.reservations .reservations-wrap .block .desc {
+  font-size: 24px;
+  color: #9a9999;
+  padding: 15px 0;
+}
+
+.reservations .reservations-wrap .block .line-bottom {
+  width: 1px;
+  height: 65px;
+  background: rgba(154, 153, 153, 0.4);
+  margin: auto;
+}
+
+.reservations .reservations-wrap .block .social {
+  margin-top: 50px;
+}
+
+.reservations .reservations-wrap .block .social button {
+  position: relative;
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: .55px;
+  margin-left: 10px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.reservations .reservations-wrap .block .social button:hover {
+  background: #ff6633;
+}
+
+.reservations .reservations-wrap .block .social button:first-of-type {
+  margin-left: 0;
+}
+
+.reservations .reservations-wrap .block .social button .fab {
+  font-family: 'fa-brands-400';
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.reservations .reservations-wrap .block .social .facebook {
+  background: #3e59a5;
+}
+
+.reservations .reservations-wrap .block .social .twitter {
+  background: #1b95e0;
+}
+
+.footer {
+  padding: 90px 0 170px 0;
+  background: #222222;
+}
+
+.footer .footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-wrap .block {
+  width: calc(33.3% - 15px);
+}
+
+.footer .footer-wrap .block h3 {
+  color: #ff6633;
+  font-family: 'PTSerif-Bold';
+  font-size: 36px;
+  line-height: 1;
+}
+
+.footer .footer-wrap .block h5 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'PTSerif-Bold';
+  letter-spacing: 1.2px;
+  line-height: 1;
+}
+
+.footer .footer-wrap .block .content {
+  margin-top: 25px;
+}
+
+.footer .footer-wrap .block .content a {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: .98px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.footer .footer-wrap .block .content a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-wrap .block .content p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.05px;
+}
+
+.footer .footer-wrap .block .content p a {
+  color: #ff6633;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 21px;
+  letter-spacing: 1.05px;
+  display: inline-block;
+}
+
+.footer .footer-wrap .block .content .footer-social {
+  margin-top: 20px;
+}
+
+.footer .footer-wrap .block .content .footer-social h5 {
+  margin-bottom: 25px;
+}
+
+.footer .footer-wrap .block .content .footer-social a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.footer .footer-wrap .block .content .footer-social a:first-of-type {
+  margin-left: 0;
+}
+
+.footer .footer-wrap .block .content .footer-social a .fab {
+  font-family: 'fa-brands-400';
+  font-size: 16px;
+}
+
+.footer .footer-wrap .block .content .footer-social a .fab:hover {
+  color: #ff6633;
+}
+
 @media screen and (max-width: 1390px) {
   .section-menu .menu-wrap1 {
     -webkit-box-orient: vertical;
@@ -864,6 +1081,22 @@ body {
   }
 }
 
+@media screen and (max-width: 770px) {
+  .reservations {
+    padding: 90px 0 120px 0;
+  }
+  .reservations .reservations-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reservations .reservations-wrap .block {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .section-menu .menu-wrap2 .right {
     -webkit-box-orient: vertical;
@@ -877,6 +1110,40 @@ body {
     margin-left: 0;
   }
   .section-menu .menu-wrap2 .right img:last-of-type {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer .footer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer-wrap .block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .footer .footer-wrap .block .content {
+    text-align: center;
+  }
+  .footer .footer-wrap .block .content .footer-social {
+    text-align: center;
+  }
+  .footer .footer-wrap .navigation {
+    margin-top: 50px;
+  }
+  .footer .footer-wrap .visit {
     margin-top: 50px;
   }
 }
