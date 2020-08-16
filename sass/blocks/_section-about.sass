@@ -1,0 +1,53 @@
+.section-about
+  padding: 120px 0 
+  & .section-about-wrap
+    display: flex 
+    justify-content: space-between
+    align-items: center
+    & .block 
+      width: calc(50% - 30px)
+      & .box 
+        width: 100%
+        & img 
+          width: 100%
+          display: block 
+      & .box-wrap 
+        display: flex 
+        justify-content: space-between
+        margin-bottom: 30px 
+        & .img 
+          width: calc(50% - 15px)
+          & img 
+            width: 100%
+            display: block
+      & h5 
+        +serif_bold 
+        color: #3b3b3b
+        font-size: 26px 
+        line-height: 1
+        margin-bottom: 40px 
+      & p 
+        margin-top: 20px 
+        color: #3b3b3b
+        line-height: 24px 
+        & a 
+          color: #ff6633
+          &:hover
+            text-decoration: underline
+      & .btn 
+        margin-top: 40px
+        display: flex 
+        justify-content: flex-end 
+        & button 
+          text-transform: uppercase
+          width: 160px 
+          height: 50px 
+          background: #ff6633
+          color: #ffffff
+          +sans_bold 
+          font-size: 13px 
+          letter-spacing: .65px
+          transition: .3s linear 
+          &:hover
+            background: rgba(#000000,.75)
+          

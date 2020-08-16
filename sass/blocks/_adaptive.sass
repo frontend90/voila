@@ -25,6 +25,21 @@
         & img 
           width: 100%
           height: auto
+@media screen and ( max-width: 980px )
+  .events 
+    & .events-wrap
+      flex-direction: column 
+      & .block 
+        width: 100%
+      & .block-form
+        display: flex
+        flex-direction: column 
+        align-items: center
+      & .block-events
+        margin-top: 50px 
+        display: flex 
+        flex-direction: column 
+        align-items: center
 @media screen and ( max-width: 950px )
   .header 
     & .nav 
@@ -85,6 +100,14 @@
               margin: 50px 0 
           &.show 
             display: block 
+@media screen and ( max-width: 840px )
+  .section-about
+    & .section-about-wrap
+      flex-direction: column 
+      & .block 
+        width: 100%
+      & .content 
+        margin-top: 50px 
 @media screen and ( max-width: 640px )
   .section-menu 
     & .menu-wrap2 
@@ -96,6 +119,17 @@
           margin-left: 0
           &:last-of-type
             margin-top: 50px 
+@media screen and ( max-width: 500px )
+  .section-about
+    & .section-about-wrap
+      & .block 
+        & .box-wrap 
+          flex-direction: column 
+          & .img 
+            width: 100%
+            margin-bottom: 30px 
+            &:last-of-type
+              margin-bottom: 0
 @media screen and ( max-width: 420px )
   .header 
     & .header-main 
@@ -106,3 +140,22 @@
         & button 
           margin-left: 0
           margin-bottom: 10px  
+  .events 
+    & .events-wrap
+      & .block-form
+        padding: 50px 10px  
+        & .form 
+          width: 100%
+          & form 
+            & .input 
+              width: 100%
+      & .block-events 
+        padding: 50px 10px 
+        & .block-content 
+          & .block-wrap
+            & .content
+              & .title-wrap
+                flex-direction: column 
+                align-items: flex-start
+                & .time 
+                  margin-left: 0
