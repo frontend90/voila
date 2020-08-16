@@ -245,6 +245,177 @@ body {
   }
 }
 
+.section-menu {
+  background: #f7f7f7;
+  padding: 120px 0;
+}
+
+.section-menu .menu-wrap1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.section-menu .menu-wrap1 .block {
+  width: calc(50% - 30px);
+}
+
+.section-menu .menu-wrap1 .block h5 {
+  font-family: 'PTSerif-Bold';
+  color: #3b3b3b;
+  font-size: 26px;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.section-menu .menu-wrap1 .block p {
+  margin-top: 15px;
+  line-height: 24px;
+}
+
+.section-menu .menu-wrap1 .block p a {
+  color: #ff6633;
+}
+
+.section-menu .menu-wrap1 .block p a:hover {
+  text-decoration: underline;
+}
+
+.section-menu .menu-wrap1 .block .btn {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section-menu .menu-wrap1 .block .btn button {
+  background: #ff6633;
+  width: 160px;
+  height: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'PTSans-Bold';
+  font-size: 13px;
+  letter-spacing: .65px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.section-menu .menu-wrap1 .block .btn button:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.section-menu .menu-wrap1 .left {
+  margin-top: 60px;
+}
+
+.section-menu .menu-wrap1 .right {
+  width: 635px;
+  position: absolute;
+  top: 0;
+  left: 520px;
+}
+
+.section-menu .menu-wrap1 .right img {
+  width: 100%;
+  display: block;
+}
+
+.section-menu .menu-wrap2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.section-menu .menu-wrap2 .block {
+  width: calc(50% - 30px);
+}
+
+.section-menu .menu-wrap2 .left {
+  margin-top: 73px;
+  min-width: 535px;
+  z-index: 1;
+}
+
+.section-menu .menu-wrap2 .left img {
+  width: 100%;
+  display: block;
+}
+
+.section-menu .menu-wrap2 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 210px;
+  left: 565px;
+}
+
+.section-menu .menu-wrap2 .right img {
+  min-width: 280px;
+  height: 100%;
+  display: block;
+  margin-left: 30px;
+}
+
+.section-menu .menu-wrap2 .right img:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1390px) {
+  .section-menu .menu-wrap1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-menu .menu-wrap1 .block {
+    width: 100%;
+  }
+  .section-menu .menu-wrap1 .left {
+    margin-top: 0;
+  }
+  .section-menu .menu-wrap1 .right {
+    position: static;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .section-menu .menu-wrap2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-menu .menu-wrap2 .block {
+    width: 100%;
+  }
+  .section-menu .menu-wrap2 .left {
+    margin-top: 50px;
+    min-width: 100%;
+  }
+  .section-menu .menu-wrap2 .right {
+    position: static;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+  .section-menu .menu-wrap2 .right img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .header .nav .menu .burger {
     display: -webkit-box;
@@ -323,6 +494,23 @@ body {
   }
   .header .nav .menu .main-menu.show {
     display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section-menu .menu-wrap2 .right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-menu .menu-wrap2 .right img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .section-menu .menu-wrap2 .right img:last-of-type {
+    margin-top: 50px;
   }
 }
 

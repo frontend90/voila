@@ -1,0 +1,73 @@
+.section-menu 
+  background: #f7f7f7
+  padding: 120px 0 
+  & .menu-wrap1 
+    display: flex 
+    justify-content: space-between
+    position: relative
+    & .block 
+      width: calc(50% - 30px)
+      & h5 
+        +serif_bold 
+        color: #3b3b3b
+        font-size: 26px 
+        line-height: 1
+        margin-bottom: 25px
+      & p 
+        margin-top: 15px
+        line-height: 24px 
+        & a 
+          color: #ff6633
+          &:hover
+            text-decoration: underline
+      & .btn 
+        margin-top: 20px 
+        display: flex 
+        justify-content: flex-end
+        & button 
+          background: #ff6633
+          width: 160px
+          height: 50px 
+          color: #ffffff
+          text-transform: uppercase
+          +sans_bold 
+          font-size: 13px 
+          letter-spacing: .65px 
+          transition: .3s linear 
+          &:hover
+            background: rgba(#000000,.75)
+    & .left 
+      margin-top: 60px 
+    & .right 
+      width: 635px 
+      position: absolute
+      top: 0 
+      left: 520px 
+      & img 
+        width: 100%
+        display: block
+  & .menu-wrap2
+    display: flex 
+    justify-content: space-between
+    position: relative
+    & .block 
+      width: calc(50% - 30px)
+    & .left 
+      margin-top: 73px 
+      min-width: 535px
+      z-index: 1
+      & img 
+        width: 100%
+        display: block 
+    & .right 
+      display: flex  
+      position: absolute
+      top: 210px 
+      left: 565px 
+      & img 
+        min-width: 280px 
+        height: 100%
+        display: block 
+        margin-left: 30px 
+        &:first-of-type
+          margin-left: 0

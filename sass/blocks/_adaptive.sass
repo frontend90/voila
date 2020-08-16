@@ -1,3 +1,30 @@
+@media screen and ( max-width: 1390px )
+  .section-menu 
+    & .menu-wrap1 
+      flex-direction: column 
+      & .block 
+        width: 100% 
+      & .left 
+        margin-top: 0
+      & .right 
+        position: static
+        margin-top: 50px 
+        width: 100%
+    & .menu-wrap2 
+      flex-direction: column 
+      & .block 
+        width: 100%
+      & .left 
+        margin-top: 50px 
+        min-width: 100%
+      & .right 
+        position: static
+        margin-top: 50px 
+        width: 100%
+        height: 100%
+        & img 
+          width: 100%
+          height: auto
 @media screen and ( max-width: 950px )
   .header 
     & .nav 
@@ -58,6 +85,17 @@
               margin: 50px 0 
           &.show 
             display: block 
+@media screen and ( max-width: 640px )
+  .section-menu 
+    & .menu-wrap2 
+      & .right 
+        flex-direction: column 
+        & img 
+          width: 100%
+          height: auto
+          margin-left: 0
+          &:last-of-type
+            margin-top: 50px 
 @media screen and ( max-width: 420px )
   .header 
     & .header-main 
